@@ -8,3 +8,5 @@ func main() {
 	var c, python, java = true, false, "no!"
 	fmt.Println(i, j, c, python, java)
 }
+
+// 1 2 true false no!
