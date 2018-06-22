@@ -10,3 +10,5 @@ type Vertex struct {
 func main() {
 	fmt.Println(Vertex{1, 2})
 }
+
+// {1 2}

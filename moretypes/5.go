@@ -8,9 +8,9 @@ type Vertex struct {
 
 var (
 	v1 = Vertex{1, 2} // {1 2}
-	v2 = Vertex{X: 1} // &{1 2}
-	v3 = Vertex{} // {1 0}
-	p = &Vertex{1, 2} // {0 0}
+	v2 = Vertex{X: 1} // {1 0}
+	v3 = Vertex{} // {0 0}
+	p = &Vertex{1, 2} // &{1 2}
 )
 
 func main () {

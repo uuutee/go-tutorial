@@ -14,3 +14,6 @@ func main() {
 	*p = *p / 37 // jをポインタp経由で割る
 	fmt.Println(j)
 }
+
+// 42
+// 73
